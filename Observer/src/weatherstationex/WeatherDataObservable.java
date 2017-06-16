@@ -1,3 +1,5 @@
+package weatherstationex;
+
 import java.util.Observable;
 
 /**

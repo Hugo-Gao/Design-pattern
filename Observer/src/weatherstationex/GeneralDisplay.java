@@ -1,4 +1,6 @@
-import java.util.*;
+package weatherstationex;
+
+import java.util.Observable;
 
 /**
  * Created by Administrator on 2017/6/14.
