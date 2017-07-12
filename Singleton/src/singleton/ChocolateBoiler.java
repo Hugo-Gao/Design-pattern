@@ -7,11 +7,9 @@ public class ChocolateBoiler
 {
     private static ChocolateBoiler chocolateBoiler;
     private boolean isEmpty;
-    private boolean boiled;
     private ChocolateBoiler()
     {
         isEmpty = true;
-        boiled = false;
         System.out.println("Initial");
     }
 
@@ -28,7 +26,6 @@ public class ChocolateBoiler
         if(isEmpty)
         {
             isEmpty = false;
-            boiled = false;
         }
     }
 }

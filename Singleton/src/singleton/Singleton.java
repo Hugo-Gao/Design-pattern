@@ -5,23 +5,22 @@ package singleton;
  */
 public class Singleton
 {
-    private static Singleton uniqueInstance;
+    private static Singleton uniqueInstance=new Singleton();
 
     private Singleton()
     {
         System.out.println("Initial");
     }
 
-    public synchronized static Singleton getInstance()
-    {
-        if (uniqueInstance == null)
-        {
-            uniqueInstance = new Singleton();
+    public static Singleton getInstance() {
+        if (uniqueInstance == null) {
+            synchronized (Singleton.class) {
+                if (uniqueInstance == null) {
+                    uniqueInstance = new Singleton();
+                }
+            }
         }
         return uniqueInstance;
     }
-    public static void test()
-    {
 
-    }
 }

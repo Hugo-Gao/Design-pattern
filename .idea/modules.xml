@@ -6,10 +6,12 @@
       <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design-pattern.iml" filepath="$PROJECT_DIR$/.idea/Design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IteratorPattern/IteratorPattern.iml" filepath="$PROJECT_DIR$/IteratorPattern/IteratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rxjava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Rxjava_main.iml" group="Rxjava" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Rxjava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Rxjava_test.iml" group="Rxjava" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemplatePattern/TemplatePattern.iml" filepath="$PROJECT_DIR$/TemplatePattern/TemplatePattern.iml" />
     </modules>
   </component>
 </project>

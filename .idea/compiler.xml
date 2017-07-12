@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="AdapterPattern_main" target="1.8" />
+      <module name="AdapterPattern_test" target="1.8" />
       <module name="Rxjava_main" target="1.8" />
       <module name="Rxjava_test" target="1.8" />
     </bytecodeTargetLevel>
